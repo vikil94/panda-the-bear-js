@@ -129,7 +129,7 @@ listItem.appendChild(leftSpan);
 <span>​Page last updated on​</span>​
 const rightSpan = document.createElement('span');
 undefined
-var updatedInfo = document.createTextNode('Today');
+var updatedInfo = document.createTextNode(Date());
 undefined
 rightSpan.appendChild(updatedInfo)
 "Today"
