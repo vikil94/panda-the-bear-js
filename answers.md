@@ -90,4 +90,53 @@ var info = aside.querySelector('.bio-info')
 aside.removeChild(info)
 
 
+PART 2
 
+
+1. 
+
+var div = document.querySelector('#time-travel')
+var title = div.querySelector('.bar-title')
+div.removeChild(title)
+
+2.
+
+var div = document.querySelector('#right-image')
+var image = div.querySelector('img')
+var container = document.querySelector('.portfolio-container')
+var image1 = div.cloneNode(image)
+container.appendChild(image1)
+
+3. 
+
+const listItem = document.createElement('li');
+undefined
+const leftSpan = document.createElement('span');
+
+
+undefined
+var lastUpdated = document.createTextNode('Page last updated on');
+
+
+undefined
+leftSpan.appendChild(lastUpdated);
+
+
+"Page last updated on"
+listItem.appendChild(leftSpan);
+
+
+<span>​Page last updated on​</span>​
+const rightSpan = document.createElement('span');
+undefined
+var updatedInfo = document.createTextNode('Today');
+undefined
+rightSpan.appendChild(updatedInfo)
+"Today"
+listItem.appendChild(rightSpan);
+
+
+<span>​Today​</span>​
+var ul = document.querySelector('.bio-info')
+undefined
+ul.appendChild(listItem)
