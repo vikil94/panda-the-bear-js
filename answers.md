@@ -8,3 +8,11 @@ profileImage.src = "https://placebear.com/200/300"
 var skyImage = document.querySelector('#left-image')
 var image = skyImage.querySelector('img')
 image.src = 'https://placebear.com/200/300'
+
+3. 
+
+var header = document.querySelector('section')
+var title = header.querySelector('.highlight')
+title.innerText = "Vikil"
+
+4.
