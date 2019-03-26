@@ -16,3 +16,9 @@ var title = header.querySelector('.highlight')
 title.innerText = "Vikil"
 
 4.
+
+var employment = document.querySelector('div #employment')
+var title = employment.querySelector('.info-title')
+title.innerText = "Hello"
+
+5.
